@@ -1,0 +1,160 @@
+/*css index*/
+.textomeio {
+	display: inline-block; /* deixar os blocos alinhados*/
+	text-align: center;
+	font-size: small;
+	width: 40%; /*largura*/
+	margin: 0 1.5%;
+	/* margem espaçamento externo, 1° pra cima e pra baixo. 2° direita e esquerda*/
+	box-sizing: border-box;
+	/* corrigir a soma da margem com o espaçamento interno*/
+	border: 2px solid black;
+	/* inserir borda no elemento (1° largura 2° tipo 3° cor)*/
+	border-radius: 10px; /* colocar borda na margem */
+}
+
+.titulo-principal {
+	text-align: center;
+}
+
+.principal {
+	text-align: center;
+	background: dark;
+	width: auto;
+	height: auto;
+}
+
+.imgfundo {
+	width: 100%;
+	height: 300px;
+}
+
+/*css contatos*/
+.maincontatos { /* ação na pagina*/
+	width: 940px; /*largura*/
+	margin: 50px auto;
+	/* margem espaçamento externo, 1° pra cima e pra baixo. 2° direita e esquerda*/
+}
+
+form label, form legend { /*descrição da caixa*/
+	display: block; /* ficar em um bloco só da pagina*/
+	font-size: 20px;
+	margin: 0 0 10px;
+	/* margem espaçamento externo, 1° pra cima e pra baixo. 2° direita e esquerda*/
+}
+
+.input-padrao { /*caixa de dados*/
+	display: block; /* ficar em um bloco só da pagina*/
+	margin: 0 0 20px;
+	/* margem espaçamento externo, 1° pra cima e pra baixo. 2° direita e esquerda*/
+	padding: 10px 25px;
+	/*padding = espaçamento interno, 1° pra cima e pra baixo. 2° direita e esquerda*/
+	width: 50%;
+}
+
+.checkbox {
+	margin: 15px 0;
+	/* margem espaçamento externo, 1° pra cima e pra baixo. 2° direita e esquerda*/
+}
+
+.enviar {
+	width: 50%; /*largura*/
+	padding: 10px 0;
+	/*padding = espaçamento interno, 1° pra cima e pra baixo. 2° direita e esquerda*/
+	background: orange; /*cor de fundo*/
+	color: white; /*cor da letra*/
+	font-weight: bold; /* letra em negrito*/
+	font-size: 18px; /* tamnho da fonte*/
+	border: none; /* sem borda*/
+	border-radius: 5px; /* borda redonda*/
+	transition: 1s all; /* tempo de transição quando coloca o mouse*/
+	cursor: pointer; /* tranforma na mãozinha em vez do clique*/
+}
+
+table {
+	margin: 20px 40px;
+	/* margem espaçamento externo, 1° pra cima e pra baixo. 2° direita e esquerda*/
+	font-weight: bold; /* fonte em negrito*/
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000; /*bordar*/
+	padding: 10px 10px; /* espaço interno*/
+}
+
+/*css produtos*/
+.mainprodutos {
+	width: 70%; /*largura*/
+	margin: auto auto;
+	/* margem espaçamento externo, 1° pra cima e pra baixo. 2° direita e esquerda*/
+}
+
+.img-anuncio {
+	width: 100%;
+}
+
+.produtos {
+	width: 80%; /* widht = largura */
+	margin: 10px 100px;
+	/* margem espaçamento externo, 1° pra cima e pra baixo. 2° direita e esquerda*/
+	padding: 10px 10px;
+	/*padding = espaçamento interno, 1° pra cima e pra baixo. 2° direita e esquerda**/
+}
+
+.produtos li {
+	display: inline-block; /* deixar os blocos alinhados*/
+	text-align: center;
+	width: 200px; /*largura*/
+	vertical-align: top; /* alinhar pela primeira linha*/
+	margin: 5px 5%;
+	/* margem espaçamento externo, 1° pra cima e pra baixo. 2° direita e esquerda*/
+	padding: 30px 20px;
+	/*padding = espaçamento interno, 1° pra cima e pra baixo. 2° direita e esquerda**/
+	/*box-sizing: border-box; /* corrigir a soma da margem com o espaçamento interno*/
+	/*border-color: #000000; (cor da borda)
+    border-width: 2px; (largura da borda)
+    border-style: solid; (Estilo da borda)*/
+	/* border: 2px  #000000; /* inserir borda no elemento (1° largura 2° tipo 3° cor)*/
+	/*border-radius: 15px; /* colocar borda na margem */
+}
+
+/* "hover' é a ação de quando passa o mouse*/
+.produtos li:hover {
+	border-color: black;
+}
+
+.produtos li:hover h2 {
+	/*comando para aumentar a fonte quando o mouse estivar no campo*/
+	font-size: 34px;
+}
+
+.produtos h2 {
+	font-size: 30px; /* tamanho da fonte*/
+	font-weight: bold; /* texto em negrito*/
+}
+
+.produto-descricao {
+	font-size: 18px; /* tamanho da fonte*/
+	margin-top: 10px;
+}
+
+.produto-preco {
+	font-size: 22px; /* tamanho da fonte*/
+	font-weight: bold; /* texto em negrito*/
+	margin-top: 10px; /* margem espaçamento externo, topo*/
+}
+
+/*css rodape*/
+.copyright {
+	color: white;
+	padding: 10px;
+	font-size: 15px;
+	text-align: center;
+	background: #000000;
+}
